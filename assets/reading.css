@@ -1,0 +1,76 @@
+/* Offline reading styles: shared by the thirteen classics and their indexes. */
+*{margin:0px;padding:0px}
+html{width:100%;margin:0 auto}
+body{font-family:"宋体","KaiXinSong","Hanazono Mincho A Regular","Hanazono Mincho B Regular","I.MingVar","I.Ming","HanaMinA","HanaMinB","Sun-ExtA","Sun-ExtB","PMingLiu","PMingLiu-ExtB","MingLiu","MingLiu-ExtB","MingLiu_HKSCS-ExtB","FZKaiT-Extended","FZKaiT-Extended(SIP)","宋体-方正超大字符集"}
+p,#text p{margin-bottom:1em;text-align:justify;text-justify:inter-ideograph}
+.em2{text-indent:2em}
+.margin1,#text .margin1,.margin2,#text .margin2,.margin3,#text .margin3,.margin4,#text .margin4{font-family:"楷体","FZKaiT-Extended","FZKaiT-Extended(SIP)","I.MingVar","I.Ming","宋体","KaiXinSong","Hanazono Mincho A Regular","Hanazono Mincho B Regular","HanaMinA","HanaMinB","Sun-ExtA","Sun-ExtB","PMingLiu","PMingLiu-ExtB","MingLiu","MingLiu-ExtB","MingLiu_HKSCS-ExtB","宋体-方正超大字符集"}
+.margin1{margin-left:1em}
+.margin2{margin-left:2em}
+.margin3{margin-left:3em}
+.margin4{margin-left:4em}
+.margin5{margin-left:5em}
+.strong{font-weight:bold}
+h1{font-weight:bold;text-indent:0;text-align:center}
+a:link{text-decoration:none;color:#0033CC}
+a:visited{text-decoration:none;color:#0033CC}
+a:hover{text-decoration:none;border-bottom:1px solid;color:#FF0000}
+a:active{text-decoration:none;color:#0000ff}
+.textright{text-align:right!important}
+.right{float:right}
+.glyph{background:#d4ecf6}
+.circled{border:1px solid red;padding:2px;margin:1px;border-radius:50%}
+hr{text-align:center;margin:20px 0px}
+:target{border:2px solid #ff5722;background-color:#ffeb3b}
+#text h1{margin:20px 0}
+#text h1{text-align:left}
+#text img{margin:2px;vertical-align:bottom;max-width:100%;cursor:zoom-in}
+.commentary{color:#6137ab;margin-left:2em}
+.small-text{font-size:0.8em;font-weight:normal}
+.collation-ref{vertical-align:super;font-size:12px;color:red;font-weight:bold;font-family:"I.MingVar","I.Ming","宋体","KaiXinSong","Hanazono Mincho A Regular","Hanazono Mincho B Regular","HanaMinA","HanaMinB","Sun-ExtA","Sun-ExtB","PMingLiu","PMingLiu-ExtB","MingLiu","MingLiu-ExtB","MingLiu_HKSCS-ExtB","FZKaiT-Extended","FZKaiT-Extended(SIP)","宋体-方正超大字符集";white-space:nowrap}
+.collation-ref a::after{border-radius:3px;padding:0 3px;display:inline-block;min-width:12px;text-indent:0;text-align:center;line-height:120%;vertical-align:super;margin:0 auto}
+.note{color:#a00000}
+.collation-note{color:#0067b8}
+#text .signature{text-align:right;font-weight:bold}
+#text .author{text-align:left;color:#880000;line-height:170%;font-weight:bold}
+#text .collation-notes{text-indent:0em;color:#880000;font-family:"FZKaiT-Extended","FZKaiT-Extended(SIP)","I.MingVar","I.Ming","宋体","KaiXinSong","Hanazono Mincho A Regular","Hanazono Mincho B Regular","HanaMinA","HanaMinB","Sun-ExtA","Sun-ExtB","PMingLiu","PMingLiu-ExtB","MingLiu","MingLiu-ExtB","MingLiu_HKSCS-ExtB","宋体-方正超大字符集";margin:0 auto;text-align:left}
+#text .collation-notes{width:90%}
+.collation-notes .navItems a::after{border-radius:3px;padding:0 3px;display:inline-block;min-width:20px;text-indent:0;text-align:center;margin:0 auto}
+ul,li{padding:0;margin:0;list-style:none}
+html{font-size:10px;background:#fff}
+body{box-sizing:border-box;width:900px;max-width:calc(100% - 32px);margin:24px auto;padding:0;text-align:left;font-size:20px;line-height:1.6;background:#fff}
+body>h1{font-size:26px;line-height:1.5;margin:18px 0 12px;color:#5b2b1d}
+body>nav{display:block;padding:10px 0;font-size:16px;line-height:1.8}
+body>section>.source{display:none}
+body>p,body>ul,body>ol{font-size:20px;line-height:1.9;margin:16px 0}
+body>ol{padding-left:2em}
+body>ol>li{list-style:decimal}
+body.book-index{font-size:18px}
+body.book-index>h1{font-size:22px;margin:12px 0 8px}
+body.book-index>nav{font-size:14px;padding:6px 0}
+body.book-index>ol{font-size:18px;line-height:1.6;margin:8px 0}
+body.book-index>ol>li{margin:0;padding:0}
+body>ul>li{padding:5px 0}
+#text{box-sizing:border-box;width:900px;max-width:100%;text-align:left;color:#000;margin:0 0 20px;padding:0;background:#fff;border:0;border-radius:0;box-shadow:none;font-size:20px;font-weight:500;overflow-x:auto}
+#text p{font-size:20px!important;font-weight:500;line-height:1.6}
+#text .note,#text .collation-note,#text .commentary,#text .collation-notes,#text .collation-notes p{font-size:14px!important;font-weight:400;line-height:1.6!important}
+#text :is(.note,.collation-note,.commentary,.collation-notes){vertical-align:baseline!important}
+#text :is(.note,.collation-note,.commentary,.collation-notes) *{font-size:inherit!important}
+#text :is(.note,.collation-note,.commentary,.collation-notes) :is(sup,.collation-ref){font-size:12px!important}
+#text *,#text *::before,#text *::after{background-color:transparent!important}
+#text .quoted-text{color:inherit!important;padding:0;border-radius:0}
+#text .collation-ref a::after,#text .collation-notes .navItems a::after{color:#235a91}
+#text h1{font-size:38px;font-weight:bold;line-height:1.5}
+#text [data-head-level="h2"]{font-size:30px}
+#text .collation-notes aside{scroll-margin-top:24px}
+#text a[data-rel]:empty:not(.unused)::after{content:attr(data-rel)}
+@media(max-width:640px){body{max-width:calc(100% - 16px);margin:12px auto}}
+body.collation #text,body.collation #text p{font-size:14px!important;font-weight:400;line-height:1.6}
+#text [data-head-level="h3"]{font-size:26px}
+#text [data-head-level="h4"]{font-size:24px}
+/* Offline collation popup. */
+#text #annotation-popup[hidden]{display:none!important}
+#text #annotation-popup{position:fixed;z-index:1000;box-sizing:border-box;width:520px;max-width:calc(100vw - 24px);max-height:calc(100vh - 24px);padding:12px 16px;background:#fff!important;border:1px solid #bbb;border-radius:4px;box-shadow:0 4px 18px #0003;color:#111;font-size:14px!important;font-weight:400;line-height:1.6;text-align:left;text-indent:0;overflow:auto}
+#text #annotation-popup .annotation-content,#text #annotation-popup .annotation-content *{font-size:14px!important;font-weight:400;line-height:1.6!important;text-indent:0}
+#text #annotation-popup .annotation-content p{margin:0}
+#text .collation-ref a[href^="#"]{cursor:pointer}

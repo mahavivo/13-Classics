@@ -1,0 +1,12 @@
+/* Reading controls; independent of original text and its structural classes. */
+body>nav.edition-nav{display:flex;align-items:center;justify-content:space-between;gap:8px 20px;flex-wrap:wrap}
+.edition-links{flex:1 1 auto;min-width:0}.edition-settings{display:flex;align-items:center;gap:16px;flex:0 0 auto;margin-left:auto;white-space:nowrap;font-size:.85em}
+.edition-settings label{display:inline-flex;align-items:center;gap:5px;cursor:pointer}.edition-settings input{accent-color:#000;width:14px;height:14px;cursor:pointer}
+.hide-punct .punct{display:none!important}
+.hide-pages #text .page-anchor::before{display:none!important}
+.punct{font-size:inherit;font-style:inherit;font-weight:inherit}
+#text .punct[data-source="structure"]{font-size:14px!important;line-height:1.6!important;font-weight:400;color:#a00000}
+#text .page-anchor{scroll-margin-top:20px}
+#text .page-anchor::before{content:"-" attr(id) "-";display:inline-block;color:green!important;font-size:14px!important;font-weight:bold!important;font-style:normal;line-height:1.6;margin:0 .35em;white-space:nowrap;vertical-align:baseline}
+#text .page-anchor:target::before{outline:1px solid #508d54}
+@media(max-width:600px){body>nav.edition-nav{gap:5px 12px}.edition-settings{gap:12px}}
