@@ -8,5 +8,5 @@
 <br>
 <br>
 <p align="center">
-<img src="01.png" style="width: 800px; max-width: 100%;">
+<img src="01.png" style="width: 750px; max-width: 100%;">
 </p>
